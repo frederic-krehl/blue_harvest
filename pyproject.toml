@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "blue-harvest"
+version = "0.1.0"
+description = ""
+authors = ["frederic.krehl <frederic.krehl@fas.ag>"]
+readme = "README.md"
+packages = [{include = "blue_harvest"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+logging = "^0.4.9.6"
+pandas = "^2.1.2"
+requests = "^2.31.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
