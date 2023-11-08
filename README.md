@@ -3,7 +3,8 @@
 1. Install the required dependencies in an virtual environment:
 
 - install poetry on your machine
-- run "poetry install" in the project directory
+- cd into the directory where this code is located
+- run "poetry install" in the console 
 
 2. Handle your credentials from marvel
 
