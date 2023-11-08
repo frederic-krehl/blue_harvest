@@ -50,7 +50,7 @@ def get_100_characters(offset=0):
         d = r.json()
         df = pd.DataFrame(d['data']['results'])
         df = df[['name','comics']]
-        df['quantity of comics'] = df['comics'].apply(lambda x: x['available'])
+        df['Quantity of comics'] = df['comics'].apply(lambda x: x['available'])
         #cleanup
         df.rename(columns={'name':'Character name'}, inplace=True)
         df.drop(columns=['comics'], inplace=True)
